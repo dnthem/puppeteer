@@ -9,5 +9,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
-console.log('env', import.meta.env.MODE)
-console.log('url', import.meta.env.VITE_APP_URL)
