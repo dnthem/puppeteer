@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 describe("e2e", () => {
     let browser;
     let page;
-    const pageURL = import.meta.env.VITE_PREVIEW_URL??"http://localhost:5173/";
+    const pageURL = import.meta.env.VITE_APP_URL??"http://localhost:5173/";
     beforeAll(async () => {
         browser = await puppeteer.launch();
         page = await browser.newPage();
