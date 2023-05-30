@@ -1,0 +1,17 @@
+{
+    "server": {
+        "command": "npm run dev",
+        "port": 5173,
+        "launchTimeout": 18000,
+        "debug": true
+        },
+    "launch": {
+        "product": "chrome",
+        "headless": "new",
+        "devtools": false,
+        "defaultViewport": null,
+        "slowMo": 50
+    }
+}
+    
+    
